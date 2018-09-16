@@ -1,0 +1,180 @@
+<grip:Pipeline>
+  <sources>
+    <grip:MultiImageFile>
+      <property name="path[21]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095403.jpg"/>
+      <property name="path[24]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095607.jpg"/>
+      <property name="path[27]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095620.jpg"/>
+      <property name="path[0]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_094912.jpg"/>
+      <property name="path[11]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095324.jpg"/>
+      <property name="path[3]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_094937.jpg"/>
+      <property name="path[14]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095335.jpg"/>
+      <property name="path[6]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095155.jpg"/>
+      <property name="path[17]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095343.jpg"/>
+      <property name="path[9]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095239.jpg"/>
+      <property name="path[30]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095634.jpg"/>
+      <property name="path[33]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095703.jpg"/>
+      <property name="path[20]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095400.jpg"/>
+      <property name="path[23]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095549.jpg"/>
+      <property name="path[26]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095617.jpg"/>
+      <property name="path[29]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095630.jpg"/>
+      <property name="path[10]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095252.jpg"/>
+      <property name="path[2]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_094932.jpg"/>
+      <property name="path[13]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095329.jpg"/>
+      <property name="path[5]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095133.jpg"/>
+      <property name="path[16]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095341.jpg"/>
+      <property name="path[8]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095231.jpg"/>
+      <property name="path[19]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095356.jpg"/>
+      <property name="path[32]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095659.jpg"/>
+      <property name="path[35]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095839.jpg"/>
+      <property name="index" value="3"/>
+      <property name="path[22]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095410.jpg"/>
+      <property name="path[25]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095613.jpg"/>
+      <property name="path[28]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095624.jpg"/>
+      <property name="path[1]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_094928.jpg"/>
+      <property name="path[4]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_094940.jpg"/>
+      <property name="path[12]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095326.jpg"/>
+      <property name="path[7]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095206.jpg"/>
+      <property name="path[15]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095338.jpg"/>
+      <property name="path[18]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095348.jpg"/>
+      <property name="numImages" value="36"/>
+      <property name="path[31]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095638.jpg"/>
+      <property name="path[34]" value="C:\Users\edwar\Downloads\vuforiatargets\Samsung s5 Camera App\20180910_095707.jpg"/>
+    </grip:MultiImageFile>
+  </sources>
+  <steps>
+    <grip:Step name="RGB Threshold">
+      <grip:Input step="0" socket="0"/>
+      <grip:Input step="0" socket="1">
+        <value>
+          <double>135.29676258992808</double>
+          <double>255.0</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="0" socket="2">
+        <value>
+          <double>171.98741007194243</double>
+          <double>255.0</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="0" socket="3">
+        <value>
+          <double>192.62589928057554</double>
+          <double>255.0</double>
+        </value>
+      </grip:Input>
+      <grip:Output step="0" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV erode">
+      <grip:Input step="1" socket="0"/>
+      <grip:Input step="1" socket="1"/>
+      <grip:Input step="1" socket="2"/>
+      <grip:Input step="1" socket="3">
+        <value>10.0</value>
+      </grip:Input>
+      <grip:Input step="1" socket="4">
+        <value>BORDER_CONSTANT</value>
+      </grip:Input>
+      <grip:Input step="1" socket="5"/>
+      <grip:Output step="1" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV dilate">
+      <grip:Input step="2" socket="0"/>
+      <grip:Input step="2" socket="1"/>
+      <grip:Input step="2" socket="2"/>
+      <grip:Input step="2" socket="3">
+        <value>10.0</value>
+      </grip:Input>
+      <grip:Input step="2" socket="4">
+        <value>BORDER_CONSTANT</value>
+      </grip:Input>
+      <grip:Input step="2" socket="5"/>
+      <grip:Output step="2" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="Find Contours">
+      <grip:Input step="3" socket="0"/>
+      <grip:Input step="3" socket="1">
+        <value>false</value>
+      </grip:Input>
+      <grip:Output step="3" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="Filter Contours">
+      <grip:Input step="4" socket="0"/>
+      <grip:Input step="4" socket="1">
+        <value>0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="2">
+        <value>0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="3">
+        <value>0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="4">
+        <value>10000.0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="5">
+        <value>0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="6">
+        <value>10000.0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="7">
+        <value>
+          <double>50.35971223021583</double>
+          <double>100.0</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="4" socket="8">
+        <value>1000000.0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="9">
+        <value>50.0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="10">
+        <value>0</value>
+      </grip:Input>
+      <grip:Input step="4" socket="11">
+        <value>5.0</value>
+      </grip:Input>
+      <grip:Output step="4" socket="0" previewed="true"/>
+    </grip:Step>
+  </steps>
+  <connections>
+    <grip:Connection>
+      <grip:Output step="2" socket="0" previewed="false"/>
+      <grip:Input step="3" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="1" socket="0" previewed="false"/>
+      <grip:Input step="2" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output source="0" socket="0" previewed="true"/>
+      <grip:Input step="0" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="0" socket="0" previewed="false"/>
+      <grip:Input step="1" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="3" socket="0" previewed="false"/>
+      <grip:Input step="4" socket="0"/>
+    </grip:Connection>
+  </connections>
+  <settings>
+    <teamNumber>0</teamNumber>
+    <publishAddress>roboRIO-0-FRC.local</publishAddress>
+    <deployAddress>roboRIO-0-FRC.local</deployAddress>
+    <deployDir>/home/lvuser</deployDir>
+    <deployUser>lvuser</deployUser>
+    <deployJavaHome>/usr/local/frc/JRE/</deployJavaHome>
+    <deployJvmOptions>-Xmx50m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError -XX:MaxNewSize=16m</deployJvmOptions>
+  </settings>
+  <codeGenerationSettings>
+    <language>Java</language>
+    <className>GripPipeline</className>
+    <implementWpilibPipeline>false</implementWpilibPipeline>
+    <saveDir>C:\Users\edwar\GRIP</saveDir>
+    <packageName></packageName>
+    <moduleName>grip</moduleName>
+  </codeGenerationSettings>
+</grip:Pipeline>

@@ -1,0 +1,336 @@
+<grip:Pipeline>
+  <sources>
+    <grip:MultiImageFile>
+      <property name="path[2]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130733.jpg"/>
+      <property name="path[5]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130915.jpg"/>
+      <property name="path[8]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130926.jpg"/>
+      <property name="path[12]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130958.jpg"/>
+      <property name="path[15]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_134157.jpg"/>
+      <property name="index" value="5"/>
+      <property name="path[18]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_134209.jpg"/>
+      <property name="path[0]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130729.jpg"/>
+      <property name="path[3]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130853.jpg"/>
+      <property name="path[6]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130923.jpg"/>
+      <property name="path[9]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130941.jpg"/>
+      <property name="path[10]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130942.jpg"/>
+      <property name="path[13]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_131002.jpg"/>
+      <property name="path[16]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_134159.jpg"/>
+      <property name="path[19]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_134210.jpg"/>
+      <property name="numImages" value="20"/>
+      <property name="path[1]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130732.jpg"/>
+      <property name="path[4]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130913.jpg"/>
+      <property name="path[7]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130925.jpg"/>
+      <property name="path[11]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_130955.jpg"/>
+      <property name="path[14]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_134154.jpg"/>
+      <property name="path[17]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Unkown Camera/20180908_134205.jpg"/>
+    </grip:MultiImageFile>
+    <grip:MultiImageFile>
+      <property name="path[21]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095403.jpg"/>
+      <property name="path[24]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095549.jpg"/>
+      <property name="path[27]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095617.jpg"/>
+      <property name="path[0]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_094912.jpg"/>
+      <property name="path[11]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095324.jpg"/>
+      <property name="path[3]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_094937.jpg"/>
+      <property name="path[14]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095335.jpg"/>
+      <property name="path[6]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095155.jpg"/>
+      <property name="path[17]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095343.jpg"/>
+      <property name="path[9]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095239.jpg"/>
+      <property name="path[30]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095630.jpg"/>
+      <property name="path[33]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095659.jpg"/>
+      <property name="path[36]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095839.jpg"/>
+      <property name="path[20]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095400.jpg"/>
+      <property name="path[23]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095416.jpg"/>
+      <property name="path[26]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095613.jpg"/>
+      <property name="path[29]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095624.jpg"/>
+      <property name="path[10]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095252.jpg"/>
+      <property name="path[2]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_094932.jpg"/>
+      <property name="path[13]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095329.jpg"/>
+      <property name="path[5]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095133.jpg"/>
+      <property name="path[16]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095341.jpg"/>
+      <property name="path[8]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095231.jpg"/>
+      <property name="path[19]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095356.jpg"/>
+      <property name="path[32]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095638.jpg"/>
+      <property name="path[35]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095707.jpg"/>
+      <property name="index" value="24"/>
+      <property name="path[22]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095410.jpg"/>
+      <property name="path[25]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095607.jpg"/>
+      <property name="path[28]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095620.jpg"/>
+      <property name="path[1]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_094928.jpg"/>
+      <property name="path[4]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_094940.jpg"/>
+      <property name="path[12]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095326.jpg"/>
+      <property name="path[7]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095206.jpg"/>
+      <property name="path[15]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095338.jpg"/>
+      <property name="path[18]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095348.jpg"/>
+      <property name="numImages" value="37"/>
+      <property name="path[31]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095634.jpg"/>
+      <property name="path[34]" value="/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095703.jpg"/>
+    </grip:MultiImageFile>
+  </sources>
+  <steps>
+    <grip:Step name="Resize Image">
+      <grip:Input step="0" socket="0"/>
+      <grip:Input step="0" socket="1">
+        <value>1280.0</value>
+      </grip:Input>
+      <grip:Input step="0" socket="2">
+        <value>720.0</value>
+      </grip:Input>
+      <grip:Input step="0" socket="3">
+        <value>CUBIC</value>
+      </grip:Input>
+      <grip:Output step="0" socket="0" previewed="true"/>
+    </grip:Step>
+    <grip:Step name="Blur">
+      <grip:Input step="1" socket="0"/>
+      <grip:Input step="1" socket="1">
+        <value>BOX</value>
+      </grip:Input>
+      <grip:Input step="1" socket="2">
+        <value>10.37735849056604</value>
+      </grip:Input>
+      <grip:Output step="1" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="HSL Threshold">
+      <grip:Input step="2" socket="0"/>
+      <grip:Input step="2" socket="1">
+        <value>
+          <double>5.084745762711864</double>
+          <double>30.000000000000004</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="2" socket="2">
+        <value>
+          <double>122.37424701463429</double>
+          <double>255.0</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="2" socket="3">
+        <value>
+          <double>60.02824858757061</double>
+          <double>216.5691489361702</double>
+        </value>
+      </grip:Input>
+      <grip:Output step="2" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="HSV Threshold">
+      <grip:Input step="3" socket="0"/>
+      <grip:Input step="3" socket="1">
+        <value>
+          <double>5.084745762711864</double>
+          <double>23.61702127659573</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="3" socket="2">
+        <value>
+          <double>153.67231638418085</double>
+          <double>255.0</double>
+        </value>
+      </grip:Input>
+      <grip:Input step="3" socket="3">
+        <value>
+          <double>103.24858757062145</double>
+          <double>255.0</double>
+        </value>
+      </grip:Input>
+      <grip:Output step="3" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV add">
+      <grip:Input step="4" socket="0"/>
+      <grip:Input step="4" socket="1"/>
+      <grip:Output step="4" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV erode">
+      <grip:Input step="5" socket="0"/>
+      <grip:Input step="5" socket="1"/>
+      <grip:Input step="5" socket="2"/>
+      <grip:Input step="5" socket="3">
+        <value>10.0</value>
+      </grip:Input>
+      <grip:Input step="5" socket="4">
+        <value>BORDER_CONSTANT</value>
+      </grip:Input>
+      <grip:Input step="5" socket="5"/>
+      <grip:Output step="5" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV dilate">
+      <grip:Input step="6" socket="0"/>
+      <grip:Input step="6" socket="1"/>
+      <grip:Input step="6" socket="2"/>
+      <grip:Input step="6" socket="3">
+        <value>10.0</value>
+      </grip:Input>
+      <grip:Input step="6" socket="4">
+        <value>BORDER_CONSTANT</value>
+      </grip:Input>
+      <grip:Input step="6" socket="5"/>
+      <grip:Output step="6" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="Distance Transform">
+      <grip:Input step="7" socket="0"/>
+      <grip:Input step="7" socket="1">
+        <value>DIST_L2</value>
+      </grip:Input>
+      <grip:Input step="7" socket="2">
+        <value>ZERO</value>
+      </grip:Input>
+      <grip:Output step="7" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV Threshold">
+      <grip:Input step="8" socket="0"/>
+      <grip:Input step="8" socket="1">
+        <value>41.0</value>
+      </grip:Input>
+      <grip:Input step="8" socket="2">
+        <value>255.0</value>
+      </grip:Input>
+      <grip:Input step="8" socket="3">
+        <value>THRESH_BINARY</value>
+      </grip:Input>
+      <grip:Output step="8" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV dilate">
+      <grip:Input step="9" socket="0"/>
+      <grip:Input step="9" socket="1"/>
+      <grip:Input step="9" socket="2"/>
+      <grip:Input step="9" socket="3">
+        <value>10.0</value>
+      </grip:Input>
+      <grip:Input step="9" socket="4">
+        <value>BORDER_CONSTANT</value>
+      </grip:Input>
+      <grip:Input step="9" socket="5"/>
+      <grip:Output step="9" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="CV subtract">
+      <grip:Input step="10" socket="0"/>
+      <grip:Input step="10" socket="1"/>
+      <grip:Output step="10" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="Find Contours">
+      <grip:Input step="11" socket="0"/>
+      <grip:Input step="11" socket="1">
+        <value>false</value>
+      </grip:Input>
+      <grip:Output step="11" socket="0" previewed="false"/>
+    </grip:Step>
+    <grip:Step name="Filter Contours">
+      <grip:Input step="12" socket="0"/>
+      <grip:Input step="12" socket="1">
+        <value>100.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="2">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="3">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="4">
+        <value>100000.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="5">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="6">
+        <value>100000.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="7">
+        <value>
+          <int>0</int>
+          <int>100</int>
+        </value>
+      </grip:Input>
+      <grip:Input step="12" socket="8">
+        <value>1000000.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="9">
+        <value>20.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="10">
+        <value>0.0</value>
+      </grip:Input>
+      <grip:Input step="12" socket="11">
+        <value>5.0</value>
+      </grip:Input>
+      <grip:Output step="12" socket="0" previewed="true"/>
+    </grip:Step>
+  </steps>
+  <connections>
+    <grip:Connection>
+      <grip:Output step="2" socket="0" previewed="false"/>
+      <grip:Input step="4" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="1" socket="0" previewed="false"/>
+      <grip:Input step="3" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output source="1" socket="0" previewed="false"/>
+      <grip:Input step="0" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="6" socket="0" previewed="false"/>
+      <grip:Input step="11" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="6" socket="0" previewed="false"/>
+      <grip:Input step="9" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="3" socket="0" previewed="false"/>
+      <grip:Input step="4" socket="1"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="8" socket="0" previewed="false"/>
+      <grip:Input step="10" socket="1"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="4" socket="0" previewed="false"/>
+      <grip:Input step="7" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="4" socket="0" previewed="false"/>
+      <grip:Input step="5" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="0" socket="0" previewed="true"/>
+      <grip:Input step="1" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="7" socket="0" previewed="false"/>
+      <grip:Input step="8" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="5" socket="0" previewed="false"/>
+      <grip:Input step="6" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="1" socket="0" previewed="false"/>
+      <grip:Input step="2" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="11" socket="0" previewed="false"/>
+      <grip:Input step="12" socket="0"/>
+    </grip:Connection>
+    <grip:Connection>
+      <grip:Output step="9" socket="0" previewed="false"/>
+      <grip:Input step="10" socket="0"/>
+    </grip:Connection>
+  </connections>
+  <settings>
+    <teamNumber>0</teamNumber>
+    <publishAddress>roboRIO-0-FRC.local</publishAddress>
+    <deployAddress>roboRIO-0-FRC.local</deployAddress>
+    <deployDir>/home/lvuser</deployDir>
+    <deployUser>lvuser</deployUser>
+    <deployJavaHome>/usr/local/frc/JRE/</deployJavaHome>
+    <deployJvmOptions>-Xmx50m -XX:-OmitStackTraceInFastThrow -XX:+HeapDumpOnOutOfMemoryError -XX:MaxNewSize=16m</deployJvmOptions>
+  </settings>
+  <codeGenerationSettings>
+    <language>Python</language>
+    <className>GripPipeline</className>
+    <implementWpilibPipeline>false</implementWpilibPipeline>
+    <saveDir>/home/efyang/projects/ocv-roverruckus/python</saveDir>
+    <packageName>cubes</packageName>
+    <moduleName>cubes</moduleName>
+  </codeGenerationSettings>
+</grip:Pipeline>
