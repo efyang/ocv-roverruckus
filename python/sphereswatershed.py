@@ -61,7 +61,7 @@ class GripPipeline:
         self.distance_transform_output = None
 
         self.__cv_threshold_src = self.distance_transform_output
-        self.__cv_threshold_thresh = 100.0
+        self.__cv_threshold_thresh = 30.0
         self.__cv_threshold_maxval = 255.0
         self.__cv_threshold_type = cv2.THRESH_BINARY
 
@@ -240,15 +240,16 @@ class GripPipeline:
 
 
 BlurType = Enum('BlurType', 'Box_Blur Gaussian_Blur Median_Filter Bilateral_Filter')
-img = cv2.imread('/home/efyang/Downloads/Samsung s5 Camera App/test.jpg', 1)
+img = cv2.imread("/home/efyang/GRIP/FTC  RR2 Photo Library/Mineral_Photos/Samsung s5 Camera App/20180910_095634.jpg", 1)
 img = cv2.resize(img, (1280, 720))
 grip = GripPipeline()
 grip.process(img)
 im2 = cv2.cvtColor(grip.cv_dilate_0_output, cv2.COLOR_GRAY2RGB)
+cv2.imshow("img", grip.cv_threshold_output)
 sure_fg = numpy.uint8(grip.cv_threshold_output)
 sure_bg = numpy.uint8(grip.cv_dilate_1_output)
 unknown = cv2.subtract(sure_bg, sure_fg)
-# cv2.imshow("uk", cv2.resize(unknown, (1200, 800)))
+cv2.imshow("uk", cv2.resize(unknown, (1280, 720)))
 ret, markers = cv2.connectedComponents(sure_fg)
 markers = markers + 1
 markers[unknown==255] = 0

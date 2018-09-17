@@ -2,6 +2,8 @@ import cv2
 import numpy
 import sys
 
+render_resolution = (720, 480) # (1280, 720)
+
 class OcvProcessor:
     def __init__(self, img):
         self.img = img
@@ -30,6 +32,17 @@ class OcvProcessor:
         cv2.drawContours(contoured, cube_contours, -1, (0, 255, 0), 3)
         self.imshow("contoured", contoured)
 
+    @staticmethod
+    def watershed(img, sure_fg, sure_bg):
+        img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
+        unknown = cv2.subtract(sure_bg, sure_fg)
+        ret, markers = cv2.connectedComponents(sure_fg)
+        markers = markers + 1
+        markers[unknown==255] = 0
+        markers = cv2.watershed(img, markers)
+        return markers
+
+
     # TODO: use watershed to find overlapping contours. Then for each
     # watershed-found contour, remove any bounding contour from the original
     # list of contours. Then combine the list of contours.
@@ -42,11 +55,14 @@ class OcvProcessor:
         mul = cv2.multiply(masked, masked, 0.005)
         thresh1 = self.threshold(mul, 165, 255)
         erode1 = self.erode(thresh1, 5)
-        distance = self.distance_transform(erode1)
+        closed = cv2.morphologyEx(erode1, cv2.MORPH_CLOSE, None, iterations = 20)
+        distance = self.distance_transform(closed)
         thresh2 = self.threshold(distance, 40, 255)
-        dilate1 = self.dilate(erode1, 20)
-        watershed_unknown = cv2.subtract(dilate1, thresh2)
-        contours1 = self.find_contours(erode1)
+        dilate1 = self.dilate(closed, 20)
+        watershed_markers = self.watershed(closed, thresh2, dilate1)
+        closed[watershed_markers == -1] = 0
+        final = self.erode(closed, 1)
+        contours1 = self.find_contours(final)
         contours1 = self.filter_contours(contours1, 1000, 0, 0, 100000, 0, 100000, (0, 100), 1000000, 0, 0, 5)
         return contours1
 
@@ -56,11 +72,14 @@ class OcvProcessor:
         basethresh = cv2.bitwise_or(yuvthresh, labthresh)
         erode1 = self.erode(basethresh, 10)
         dilate1 = self.dilate(erode1, 10)
-        distance = self.distance_transform(basethresh)
+        closed = cv2.morphologyEx(dilate1, cv2.MORPH_CLOSE, None, iterations = 20)
+        distance = self.distance_transform(closed)
         thresh1 = self.threshold(distance, 41, 255)
-        dilate2 = self.dilate(dilate1, 10)
-        watershed_unknown = cv2.subtract(dilate2, thresh1)
-        contours1 = self.find_contours(dilate1)
+        dilate2 = self.dilate(closed, 10)
+        watershed_markers = self.watershed(closed, thresh1, dilate2)
+        dilate1[watershed_markers == -1] = 0
+        final = self.erode(dilate1, 1)
+        contours1 = self.find_contours(final)
         contours1 = self.filter_contours(contours1, 100, 0, 0, 100000, 0, 100000, (0, 100), 1000000, 20, 0, 5)
         return contours1
 
@@ -170,7 +189,7 @@ class OcvProcessor:
 
     @staticmethod
     def imshow(name, img):
-        cv2.imshow(name, cv2.resize(img, (1280, 720)))
+        cv2.imshow(name, cv2.resize(img, render_resolution))
 
 
 
